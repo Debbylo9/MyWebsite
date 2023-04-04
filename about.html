@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> About page</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+
+    <style>
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          position: relative;
+        
+        }
+        
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 33.3%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+        }
+        
+        .about-section {
+            display: flex;
+            flex-direction: column;
+          padding: 10px;
+          text-align: center;
+
+          background-color: #474e5d;
+          color: white;
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="about-section">
+            <header>
+                <nav>
+                  <img style="img" src="pictures/logo debby.jpg" >
+                    <ul background-color:gray;>
+        
+                        <li><a href="website.html"></a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="feature.html">FEATURES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+          <h1>About Us Page</h1>
+          <p>This website was created  to educate people and give them varierty of ideas in fashion industry.</p>
+          <p>Hope you will like our ideas.</p>
+        </div>
+        
+        <h2 style="text-align:center">our website offers the following categoies:</h2>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="pictures/Beautiful dress.jpg" alt="Jane" style="width:100%">
+              <div class="container">
+                <h2>MODERN GOWNS</h2>
+                <p class="title">Modern gowns</p>
+                <p>this category focuses on the many creative designs <br> that black women take pride in wearing.</p>
+                <p><button class="button">Available</button></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="pictures/background.png" alt="Mike" style="width:100%">
+              <div class="container">
+                <h2>SWIMSUITS</h2>
+                <p class="title">Swimsuits</p>
+                <p>this category focuses on the sexy,classy yet modern swimsuits <br> that ate deigned in weatern africa.</p>
+                <p><button class="button">Available</button></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <img src="pictures/745a1a83c9e93192569a16d6f41aed1f.jpg" alt="John" style="width:100%">
+              <div class="container">
+                <h2> BRAIDED HAIRSTYLES</h2>
+                <p class="title">Hairstyles</p>
+                <p>this category focuses on the many cool and creative designs <br>that black women can wear for different occasions.</p>
+                <p><button class="button">Available</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+<footer>
+  <h1>
+    &copy; debby @2023
+  </h1>
+</footer>
+</html> 

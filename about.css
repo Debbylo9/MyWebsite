@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(184, 18, 184);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 25px;
+    line-height: 1.5;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}  
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+.debby{
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    border: solid rred;
+
+}
+.debby img{
+
+width:400px;
+height: 450px;
+border-style: inherit;
+border: 2px solid black;
+margin: 50px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 5px brown;
+}
+img:hover{
+    border: 2px solid palevioletred;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
